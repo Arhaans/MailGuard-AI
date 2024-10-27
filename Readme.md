@@ -12,6 +12,8 @@
   - HTML
   - CSS
   - JavaScript
+  - Python
+  - 
 
 ## Features
 - **Spam Detection**: Uses a machine learning model to classify emails as "Spam" or "Ham".
@@ -25,4 +27,23 @@
    ```bash
    git clone https://github.com/Arhaans/MailGuard-AI.git
    ```
-2. 
+2\) Navigate to the project directory
+```bash
+  cd hackathon
+```
+3\) Create a virtual environment
+``` bash
+conda create --name testenv(environment name)
+```
+
+4\) Activate the virtual environment
+```bash
+conda activate testenv
+```
+5\) Install the required dependecies mentioned in the requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+
