@@ -20,6 +20,12 @@
   - CSS
   - JavaScript
 
+### Model Performance
+Below is the model's training performance, showing training loss per epoch and accuracy metrics:
+
+![PHOTO-2024-10-27-09-48-36](https://github.com/user-attachments/assets/d6d5d296-4f47-48e3-9350-2640fcb2338b)
+
+
 ## Features
 - **Spam Detection**: Uses a machine learning model to classify emails as "Spam" or "Ham".
 - **Interactive User Interface**: A user-friendly interface to enter email content and view classification results.
