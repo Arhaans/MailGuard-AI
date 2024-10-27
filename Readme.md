@@ -12,8 +12,6 @@
   - HTML
   - CSS
   - JavaScript
-  - Python
-  - 
 
 ## Features
 - **Spam Detection**: Uses a machine learning model to classify emails as "Spam" or "Ham".
@@ -24,26 +22,65 @@
 
 ## Installation
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Arhaans/MailGuard-AI.git
-   ```
-2\) Navigate to the project directory
-```bash
-  cd hackathon
-```
-3\) Create a virtual environment
-``` bash
-conda create --name testenv(environment name)
-```
+     ```
+     bash
+     git clone https://github.com/Arhaans/MailGuard-AI.git
+     ```
+2. **Navigate to the project directory:**
+    ```
+    cd MailGuard-AI
+    ```
+3. **Create a virtual environment:**
+    ```
+    conda create --name mailguard-env
+     ```
+4. **Activate the virtual environment:**
+    ```
+    pip install -r requirements.txt
+     ```
+5. **Install the required dependencies:**
+    ``` 
+    pip install -r requirements.txt
+    ```
 
-4\) Activate the virtual environment
-```bash
-conda activate testenv
-```
-5\) Install the required dependecies mentioned in the requirements.txt
+## Usage
+1. **Start the backend server:**
 
-```bash
-pip install -r requirements.txt
-```
+- Run the following command to start the FastAPI server:
+bash
+    ```
+    uvicorn main:app --reload
+    ```
+- The backend will be accessible at http://127.0.0.1:8000.
+2. **Start the frontend:**
 
+- Ensure you are in the frontend directory (if separate).
+- Run the frontend using a command like:
 
+    ```
+    npm start
+    ```
+- Open http://localhost:3000 in your web browser to interact with the MailGuard AI application.
+3. **Using the Application:**
+
+- Enter the email content in the provided input field.
+- Click "Search" to classify the email as "Spam" or "Ham".
+- View your search history and delete or clear entries as needed.
+## Future Work
+- Advanced Features:
+  - Implement user authentication for personalized histories.
+  - Add options to save and export chat histories.
+- Enhanced Model Capabilities:
+  - Incorporate a more complex language model for even more accurate spam detection.
+  - Enable customization for individual spam preferences.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request with any improvements or suggestions you may have.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Acknowledgements
+- BERT-tiny for providing the foundation for tokenization and language processing.
+- ONNX Runtime for enabling efficient model inference.
+- React and FastAPI for the frontend and backend frameworks.
