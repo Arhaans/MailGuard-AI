@@ -6,6 +6,13 @@
 ## Technologies Used
 - **Language Model & Tokenization:** BERT-tiny
 - **Machine Learning Library:** ONNX Runtime (for running the model)
+- **Machine Learning Technologies:**
+  - TensorFlow
+  - PyTorch
+  - Transformers
+  - Scikit-learn
+
+
 - **Backend Framework:** FastAPI
 - **Frontend Technologies:** 
   - React
