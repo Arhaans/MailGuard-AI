@@ -1,5 +1,7 @@
 # MailGuard AI
 
+![UI of mailguard ai](https://github.com/user-attachments/assets/43ee0430-cc93-4d53-96d9-d8523f5b6757)
+
 ## Overview
 **MailGuard AI** is an intelligent spam detection system designed to identify and classify emails as either spam or not spam (ham). Utilizing a machine learning model with **BERT-tiny** for tokenization, the application helps users efficiently filter unwanted emails, ensuring only relevant communication is prioritized.
 
